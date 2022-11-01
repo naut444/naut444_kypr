@@ -3,7 +3,7 @@
 
 # 二分探索
 
-## [Binary Seatch](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/6/ITP2_6_A)
+## [Binary Search](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/6/ITP2_6_A)
 * 単調増加数列 $A = (a_0, a_1, \cdots, a_{N-1})$ について、値 $k$ が存在するかを高速に判定する。
 
 ``` rust
