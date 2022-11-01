@@ -1,6 +1,6 @@
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script> <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-# [UnionFind](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A)
+# UnionFind
 
 ## [互いに素な集合](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A)
 * $N$ 個の集合 $S_0, S_1, S_2, \cdots, S_{N-1}$ があり、それらについて、以下のような操作を行う。
