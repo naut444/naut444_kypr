@@ -19,6 +19,7 @@
 
 ## DPL(組み合わせ最適化)
 * [DP(動的計画法)](https://naut444.github.io/DPL/dp_problems) $\cdots$ 動的計画法の基本的な問題。
+* [DPの応用問題](https://naut444.github.io/DPL/adv_dp) $\cdots$ 動的計画法だけでは解けないが、動的計画法を用いる問題。最長部分増加列問題など。
 
 ## GRL(グラフ)
 * [最短距離問題](https://naut444.github.io/GRL/shortest_path) $\cdots$ 各種の最短経路問題。Dijkstra法、Bellman-Ford法、Floyd-Warshall法について。(グラフ関連は統一した書き方にしたいので、書き直す予定。)
