@@ -23,4 +23,6 @@
 ## GRL(グラフ)
 * [最短距離問題](https://naut444.github.io/GRL/shortest_path) $\cdots$ 各種の最短経路問題。Dijkstra法、Bellman-Ford法、Floyd-Warshall法について。(グラフ関連は統一した書き方にしたいので、書き直す予定。)
 
+* [全域木](https://naut444.github.io/GRL/spanning_tree) $\cdots$ 最小全域木問題等。
+
 ## 工事中
