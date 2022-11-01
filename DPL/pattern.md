@@ -5,7 +5,7 @@
 
 ## [Largest Square](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/3/DPL_3_A)
 * 横 $W$ 縦 $H$ のタイルがあり、各 $1 cm^{2}$ タイルに分かれ、それぞれがきれいか汚れているかで分類する。(0: きれい, 1: 汚れている)
-* きれいなタイルだけで構成できる正方形のうち、最も面積の多いものの面積を求める。
+* きれいなタイルだけで構成できる正方形のうち、最も面積の大きいものの面積を求める。
 
 ```rust
 use proconio::input;
