@@ -10,7 +10,7 @@
 * [頻出](https://naut444.github.io/freq) $\cdots$ 数列の最大値、最小値、総和を求める。
 
 ## ITP2(プログラミング応用)
-* [二分探索]()
+* [二分探索](https://naut444.github.io/ITP2/binary_search) $\cdots$ 数列の二分探索等。
 
 ## DPL(組み合わせ最適化)
 * [DP(動的計画法)](https://naut444.github.io/DPL/dp_problems) $\cdots$ 動的計画法の典型的な問題。
