@@ -14,6 +14,7 @@
 
 ## DSL(データの集合とクエリ処理)
 * [UnionFind](https://naut444.github.io/DSL/union_find_tree) $\cdots$ UnionFindの実装。
+* [尺とり法](https://naut444.github.io/DSL/two_pointers) $\cdots$ 尺とり法の典型的な問題。
 
 ## DPL(組み合わせ最適化)
 * [DP(動的計画法)](https://naut444.github.io/DPL/dp_problems) $\cdots$ 動的計画法の典型的な問題。
