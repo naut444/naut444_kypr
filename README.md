@@ -20,6 +20,7 @@
 ## DPL(組み合わせ最適化)
 * [DP(動的計画法)](https://naut444.github.io/DPL/dp_problems) $\cdots$ 動的計画法の基本的な問題。
 * [DPの応用問題](https://naut444.github.io/DPL/adv_dp) $\cdots$ 動的計画法だけでは解けないが、動的計画法を用いる問題。最長部分増加列問題など。
+* [パターン](https://naut444.github.io/DPL/pattern) $\cdots$ 条件を満たす領域のうち、最大面積を求める問題。 $H \times W$ のタイルの中で条件を満たすものの中でできる正方形で最も面積の大きいものを求めるなど。
 
 ## GRL(グラフ)
 * [最短距離問題](https://naut444.github.io/GRL/shortest_path) $\cdots$ 各種の最短経路問題。Dijkstra法、Bellman-Ford法、Floyd-Warshall法について。(グラフ関連は統一した書き方にしたいので、書き直す予定。)
