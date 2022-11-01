@@ -6,8 +6,6 @@
 * 基本的に、[AOJ](https://onlinejudge.u-aizu.ac.jp/courses/list)の問題を使う。ただし、入出力等の方式はAtCoderの環境に合わせてある。
 * Rustの練習のために書いているので、基本的にはRustを用いるが、たまに普段遣いのPythonを使う(予定)。
 
-[TOC]
-
 ## よく使うフレーズ
 * [頻出](https://naut444.github.io/freq) $\cdots$ 数列の最大値、最小値、総和を求める。
 
