@@ -1,6 +1,6 @@
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-# [競プロ用のスニペット置き場](https://naut444.github.io/)
+# 競プロ用のスニペット置き場
 
 * アルゴリズムや、データ構造のコードを保存して、再利用するためにまとめる。
 * 基本的に、[AOJ](https://onlinejudge.u-aizu.ac.jp/courses/list)の問題を使う。ただし、入出力等の方式はAtCoderの環境に合わせてある。
