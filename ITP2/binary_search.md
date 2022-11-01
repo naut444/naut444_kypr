@@ -53,7 +53,8 @@ fn binary_search(l: &Vec<usize>, val: usize) -> usize{
 
 ## [Includes](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/6/ITP2_6_B)
 * 単調増加数列 $A, B$ について、 $B$ のすべての要素が $A$ に含まれているかを判定する。
-* いろいろな解き方が考えられる問題。尺とり法、二分探索、setに入れて判定...
+* いろいろな解き方が考えられる問題。尺とり法、二分探索、setに入れて判定 $\cdots$  
+
 ``` rust
 use::proconio::input;
 
