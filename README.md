@@ -7,7 +7,7 @@
 * Rustの練習のために書いているので、基本的にはRustを用いるが、たまに普段遣いのPythonを使う(予定)。
 
 ## よく使うフレーズ
-* [頻出](https://naut444.github.io/freq) $\cdots$ 数列の最大値、最小値、総和を求める。
+* [頻出](https://naut444.github.io/freq) $\cdots$ ちょっとしたメモ。ITP1, ALDS1, ITP2 程度に相当。
 
 ## ITP2(プログラミング応用)
 * [二分探索](https://naut444.github.io/ITP2/binary_search) $\cdots$ 数列の二分探索等。
