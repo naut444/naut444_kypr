@@ -12,6 +12,9 @@
 ## ITP2(プログラミング応用)
 * [二分探索](https://naut444.github.io/ITP2/binary_search) $\cdots$ 数列の二分探索等。
 
+## DSL(データの集合とクエリ処理)
+* [UnionFind](https://naut444.github.io/DSL/union_find_tree) $\cdots$ UnionFindの実装。
+
 ## DPL(組み合わせ最適化)
 * [DP(動的計画法)](https://naut444.github.io/DPL/dp_problems) $\cdots$ 動的計画法の典型的な問題。
 
