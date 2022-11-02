@@ -27,4 +27,8 @@
 * [全域木](https://naut444.github.io/GRL/spanning_tree) $\cdots$ 最小全域木問題等。
 * [サイクル](https://naut444.github.io/GRL/cycle_detection_for_a_directed_graph) $\cdots$ 有向グラフの閉路の存在判定、トポロジカルソート。
 
+## 数学
+* Rustを書く上で必要になる数学のトピックのざっくりしたまとめ。ちまちま書き足す。
+* [同値関係・順序](https://naut444.github.io/eq_ord) $\cdots$ 構造体等で定義する必要のある同値関係や順序等の関係の定義のまとめ。
+
 ## 工事中
