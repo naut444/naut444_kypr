@@ -46,3 +46,36 @@ fn prime_factorize(n: usize) -> Vec<usize>{
     ret
 }
 ```
+
+## [べき乗](https://onlinejudge.u-aizu.ac.jp/courses/library/6/NTL/1/NTL_1_B)
+* $n, m$ が与えられるので、 $n^{m} \pmod{10^9 + 7}$ を出力する。
+* あまりスマートでないので、struct等を用いて適当に書き直すべきかもしれない。
+
+```
+fn main(){
+    input!{
+        m: usize,
+        n: usize,
+    }
+    const MOD: usize = 1000000007;
+    let ans = pow(m, n, MOD);
+    println!("{}", ans);
+}
+
+fn pow(m: usize, n: usize, M: usize) -> usize{
+    let mut dp = vec![0; 31];
+    dp[0] = m;
+    for i in 1..31{
+        dp[i] = (dp[i-1] * dp[i-1]) % M;
+    }
+
+    let mut ret = 1;
+    for i in 0..31{
+        if (n >> i) & 1 == 1{
+            ret *= dp[i];
+            ret %= M;
+        }
+    }
+    ret
+}
+```
