@@ -49,9 +49,6 @@ fn main(){
 ## [The Smallest Window2](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/3/DSL_3_B)
 * $A = (a_0, a_1, \cdots, a_{N-1})$ と、整数 $K$ が与えられる。そこで、 $1, 2, \cdots, K$ をすべて含む連続する部分列のうち、最も短いものの長さを求める。存在しないときは、0とする。
 
-* 解法のイメージ
-    * 尺とり法で、右側が条件を満たすまで動かしながら、答えを求めたい。 $1, 2, \cdots, K$ が登場した回数を管理し、それが0より大きいものの個数も管理すれば、条件を満たすかどうかが確認しやすい。また、登場した回数を毎回 $K$ まで調べて判定すると、計算量が大きくなる場合が存在しうる。
-
 ```rust
 use proconio::input;
 use std::cmp::min;
