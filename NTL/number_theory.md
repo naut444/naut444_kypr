@@ -79,3 +79,44 @@ fn pow(m: usize, n: usize, M: usize) -> usize{
     ret
 }
 ```
+
+## [最小公倍数](https://onlinejudge.u-aizu.ac.jp/courses/library/6/NTL/1/NTL_1_C)
+* $N$ 個の数 $a_1, a_2, \cdots, a_N$ の最小公倍数を求める。
+
+* 基本
+    * $a, b$ の最大公約数を $\gcd(a, b)$ 、最小公倍数を $\operatorname{lcm}(a, b)$ と表記する。
+    * ここで、 $\displaystyle \operatorname{lcm}(a, b) = \frac{a \times b}{\gcd(a, b)}$ が成り立つ。
+* 本問
+    * 同様にして、 $N$ 個の整数に対して、 $\gcd(a_1, a_2, \cdots, a_N) = \gcd(a_1, \gcd(a_2, \gcd(a_3, \cdots \gcd(a_{N-1}, a_{N}))))$
+    * $\operatorname{lcm}(a_1, a_2, \cdots, a_N) = \operatorname{lcm}(a_1, \operatorname{lcm}(a_2, \operatorname{lcm}(a_3, \cdots, \operatorname{lcm}(a_{N-1}, a_{N}))))$
+    * が成り立つ。
+
+```rust
+use proconio::input;
+
+fn main(){
+    input!{
+        n: usize,
+        A: [usize; n],
+    }
+
+    let mut ans = A[0];
+    for i in 1..n{
+        ans = lcm(ans, A[i]);
+    }
+    println!("{}", ans);
+}
+
+fn gcd(a:usize, b:usize) -> usize{
+    if b == 0{
+        a
+    }
+    else{
+        gcd(b, a%b)
+    }
+}
+
+fn lcm(a:usize, b:usize) -> usize{
+    a * b / gcd(a, b)
+}
+```
