@@ -28,7 +28,7 @@
 * [サイクル](https://naut444.github.io/GRL/cycle_detection_for_a_directed_graph) $\cdots$ 有向グラフの閉路の存在判定、トポロジカルソート。
 
 ## 整数論
-* [初等整数論](https://naut444.github.io/GRL/number_theory) $\cdots$ 初等的な整数論の問題。素因数分解等。
+* [初等整数論](https://naut444.github.io/NTL/number_theory) $\cdots$ 初等的な整数論の問題。素因数分解等。
 
 ## 数学(予定)
 * 予定地
