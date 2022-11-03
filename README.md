@@ -16,6 +16,7 @@
 * [UnionFind](https://naut444.github.io/DSL/union_find_tree) $\cdots$ UnionFindの実装。
 * [尺とり法](https://naut444.github.io/DSL/two_pointers) $\cdots$ 尺とり法の基本的な問題。
 * [累積和](https://naut444.github.io/DSL/cumulative_sum) $\cdots$ 累積和の基本的な問題。
+* [複合問題](https://naut444.github.io/DSL/comprehensive) $\cdots$ これらの複合問題。
 
 ## DPL(組み合わせ最適化)
 * [DP(動的計画法)](https://naut444.github.io/DPL/dp_problems) $\cdots$ 動的計画法の基本的な問題。
